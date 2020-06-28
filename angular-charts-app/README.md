@@ -10,6 +10,8 @@ ng new angular-charts-app
 ```sh
 ng g c bar-chart
 ng g c bubble-chart
+ng g c line-chart
+ng g c pie-chart
 npm install bootstrap
 ```
 
