@@ -1,4 +1,5 @@
 # AngularChartsApp
+Works on Angular 7+
 
 ### Installation
 sudo npm install -g @angular/cli
@@ -29,5 +30,11 @@ npm install ng2-charts chart.js --save
 ###### Add this statement in app.module.ts
 
 import { ChartsModule } from 'ng2-charts';
+
+imports: [
+   .....
+   ChartsModule
+   .....
+]
 
 
